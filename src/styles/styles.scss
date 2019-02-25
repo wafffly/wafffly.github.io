@@ -1,4 +1,5 @@
 @import "./global-variables.scss";
+@import "./fonts.scss";
 
 * {
 -webkit-box-sizing: border-box;
@@ -8,13 +9,27 @@ box-sizing: border-box;
 
 html, body {
   font-family: $font-main;
+  background-color: $dark-blue;
   font-weight: 300;
   font-size: 1 rem;
-  color: $white;
+}
+
+.page {
+  @include sm {
+    width: calc(90vw);
+  }
+  @include md {
+    width: calc(80vw);
+  }
+  @include lg {
+    width: calc(70vw);
+  }
+  @include xl {
+    width: calc(60vw);
+  }
 }
 
 #landing {
-  margin: 10%;
-  width: 80%;
+  @extend .page;
   color: $light-cream;
 }

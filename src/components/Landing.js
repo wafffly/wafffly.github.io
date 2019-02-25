@@ -7,7 +7,7 @@ class Landing extends React.Component {
     return (
       <div id="landing" className="container">
         <div className="row">
-          <div className="col-12 col-sm-6">
+          <div className="col-12 col-md-6">
             <h1 className="display-3">
               <img
                 src={logo}
@@ -23,10 +23,10 @@ class Landing extends React.Component {
               beauty and function.
             </p>
           </div>
-          <div className="col-12 col-sm-6">
+          <div className="col-12 col-md-6">
             <img
               src={landingArt}
-              style={{height: '350px'}}
+              style={{width: '100%'}}
             />
           </div>
         </div>
