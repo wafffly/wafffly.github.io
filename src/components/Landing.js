@@ -8,26 +8,34 @@ class Landing extends React.Component {
       <div id="landing" className="container">
         <div className="row">
           <div className="col-12 col-md-6">
-            <h1 className="display-3">
+            <h1>
               <img
                 src={logo}
-                style={{height: '40px'}}
+                className="waffly-logo"
               />
-              Waffly
+              <br/>
+              WAFFLY
             </h1>
-            <p>
+            <span className="subtitle">
               creating simple projects
               <br/>
               that combine
               <br/>
               beauty and function.
-            </p>
+            </span>
           </div>
           <div className="col-12 col-md-6">
             <img
               src={landingArt}
               style={{width: '100%'}}
             />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <span className="subtitle-sm">
+              What we've been working on
+            </span>
           </div>
         </div>
       </div>

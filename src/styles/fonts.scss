@@ -1,0 +1,15 @@
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.subtitle-sm {
+  @extend .subtitle;
+  font-size: 1rem;
+}
