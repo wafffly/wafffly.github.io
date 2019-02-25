@@ -12,10 +12,24 @@ html, body {
   font-weight: 300;
   font-size: 1 rem;
   background-color: $light-cream;
+  background-image: url('../assets/landing-header.svg');
+  background-repeat: no-repeat;
+  background-size: 120rem auto;
+  @include sm {
+    background-size: 140rem auto;
+  }
+  @include md {
+    background-size: 90rem auto;
+  }
+  @include lg {
+    background-size: 90rem auto;
+  }
+  @include xl {
+    background-size: 110rem auto;
+  }
 }
 
 .page-container {
-  background-color: $dark-blue;
   position: relative;
   padding-bottom: calc(8.5vh - 20px);
   .page {
@@ -38,9 +52,7 @@ html, body {
 
 #landing {
   @extend .page-container;
-  background-color: $dark-blue;
   color: $light-cream;
-  padding-bottom: calc(18vh);
 }
 
 .waffly-logo {
@@ -63,39 +75,22 @@ html, body {
   }
 }
 
-#closetr-feature-bg {
-  transform: skewY(-2.5deg);
-  transform-origin: top left;
-  background-color: $light-cream;
-  width: 100%;
-  height: calc(50rem);
-  overflow-x: hidden;
-  position: absolute;
-  top: 3rem;
-  @include sm {
-    top: 4rem;
-  }
-  @include md {
-    top: 6.5rem;
-  }
-}
-
 #closetr-feature {
   @extend .page-container;
-  height: 50rem;
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .feature-caption {
   position: relative;
-  top: 10rem;
+  top: 1rem;
   .title {
     font-weight: 600;
     color: $dark-blue;
     font-size: 1.5rem;
   }
   .caption {
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
     font-weight: 300;
     color: $dark-blue;
     font-size: 1rem;
@@ -103,13 +98,13 @@ html, body {
   }
   .demo {
     @extend .title;
-    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
     background-color: $tan;
   }
 }
 
 .feature-img {
-  margin: -9rem auto;
   border-radius: 15px;
   width: 90%;
   -webkit-box-shadow: 11px 11px 30px -13px rgba(97,67,21,0.63);

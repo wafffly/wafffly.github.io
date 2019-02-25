@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/waffly-logo.png';
 import landingArt from '../assets/waffly-landing-art.png';
 import arrowDown from '../assets/arrow-down.png';
+import landingHeader from '../assets/landing-header.svg';
 
 class Landing extends React.Component {
   render() {
