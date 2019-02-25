@@ -11,9 +11,15 @@ class ClosetrFeature extends React.Component {
             src={closetrFeatureImg}
           />
         </div>
+        <div id="closetr-feature-bg"></div>
       </div>
     );
   }
 }
 
 export default ClosetrFeature;
+
+/*<img
+  className="feature-img"
+  src={closetrFeatureImg}
+/>*/

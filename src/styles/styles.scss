@@ -11,12 +11,15 @@ html, body {
   font-family: $font-main;
   font-weight: 300;
   font-size: 1 rem;
+  background-color: $light-cream;
 }
 
 .page-container {
   background-color: $dark-blue;
+  position: relative;
   padding-bottom: calc(8.5vh - 20px);
   .page {
+    z-index: 1;
     position: relative;
     top: calc(8.5vh - 20px);
     width: 95vw;
@@ -39,7 +42,7 @@ html, body {
   @extend .page-container;
   background-color: $dark-blue;
   color: $light-cream;
-  padding-bottom: calc(20vh);
+  padding-bottom: calc(18vh);
 }
 
 .waffly-logo {
@@ -56,18 +59,33 @@ html, body {
   }
 }
 
+#closetr-feature-bg {
+  transform: skewY(-2.5deg);
+  transform-origin: top left;
+  background-color: $light-cream;
+  width: 100%;
+  height: calc(60vw + 7rem);
+  position: absolute;
+  top: 3rem;
+  @include sm {
+    top: 4rem;
+  }
+  @include md {
+    top: 6.5rem;
+  }
+}
+
 #closetr-feature {
   @extend .page-container;
-  background-color: $light-cream;
   text-align: center;
-  width: 100%;
-  height: calc(60vw + 6rem);
-
 }
 
 .feature-img {
-  width: 80%;
-  margin: -10rem auto;
+  margin: -9rem auto;
   border-radius: 10px;
+  width: 90%;
+  @include md {
+    top: 80%;
+  }
 
 }
