@@ -22,10 +22,7 @@ html, body {
     z-index: 1;
     position: relative;
     top: calc(8.5vh - 20px);
-    width: 95vw;
-    @include sm {
-      width: calc(90vw);
-    }
+    width: 90vw;
     @include md {
       width: calc(80vw);
     }
@@ -55,7 +52,13 @@ html, body {
   text-align: center;
   .icon-arrow-down {
     display: block;
+    width: 46px;
     margin: 1rem auto;
+    transition: $mid-ease;
+    &:hover {
+      transform: translateY(0.5rem);
+      transition: $mid-ease;
+    }
   }
 }
 
@@ -82,7 +85,7 @@ html, body {
 
 .feature-img {
   margin: -9rem auto;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 90%;
   @include md {
     top: 80%;

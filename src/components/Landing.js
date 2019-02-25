@@ -39,10 +39,11 @@ class Landing extends React.Component {
                 <span className="subtitle-sm">
                   What we've been working on
                 </span>
-                <img
-                  src={arrowDown}
-                  className="icon-arrow-down"
-                />
+                <a href="#" className="icon-arrow-down">
+                  <img
+                    src={arrowDown}
+                  />
+                </a>
               </div>
             </div>
           </div>

@@ -11,6 +11,11 @@ $light-cream: #FEF5DE;
 // fonts
 $font-main: 'Work Sans', sans-serif;
 
+// animations
+$slow-ease: 0.7s ease all;
+$mid-ease: 0.5s ease all;
+$fast-ease: 0.3s ease all;
+
 
 @mixin sm {
   @media (min-width: #{$screen-sm-min}) {
