@@ -15,17 +15,22 @@ html, body {
   background-image: url('../assets/landing-header.svg');
   background-repeat: no-repeat;
   background-size: 120rem auto;
+  transition: $mid-ease;
   @include sm {
     background-size: 140rem auto;
+    transition: $mid-ease;
   }
   @include md {
     background-size: 90rem auto;
+    transition: $mid-ease;
   }
   @include lg {
     background-size: 90rem auto;
+    transition: $mid-ease;
   }
   @include xl {
     background-size: 110rem auto;
+    transition: $mid-ease;
   }
 }
 
