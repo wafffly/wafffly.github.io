@@ -40,3 +40,12 @@ html, body {
   margin-bottom: 1.5rem;
   width: 2.5rem;
 }
+
+.expand-caption {
+  margin-top: 1rem;
+  text-align: center;
+  .icon-arrow-down {
+    display: block;
+    margin: 1rem auto;
+  }
+}

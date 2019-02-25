@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/waffly-logo.png';
 import landingArt from '../assets/waffly-landing-art.png';
+import arrowDown from '../assets/arrow-down.png';
 
 class Landing extends React.Component {
   render() {
@@ -33,9 +34,15 @@ class Landing extends React.Component {
         </div>
         <div className="row">
           <div className="col-12">
-            <span className="subtitle-sm">
-              What we've been working on
-            </span>
+            <div className="expand-caption">
+              <span className="subtitle-sm">
+                What we've been working on
+              </span>
+              <img
+                src={arrowDown}
+                className="icon-arrow-down"
+              />
+            </div>
           </div>
         </div>
       </div>
