@@ -9,31 +9,37 @@ box-sizing: border-box;
 
 html, body {
   font-family: $font-main;
-  background-color: $dark-blue;
   font-weight: 300;
   font-size: 1 rem;
 }
 
-.page {
-  margin-top: calc(8.5vh - 20px);
-  width: 95vw;
-  @include sm {
-    width: calc(90vw);
-  }
-  @include md {
-    width: calc(80vw);
-  }
-  @include lg {
-    width: calc(70vw);
-  }
-  @include xl {
-    width: calc(60vw);
+.page-container {
+  background-color: $dark-blue;
+  padding-bottom: calc(8.5vh - 20px);
+  .page {
+    position: relative;
+    top: calc(8.5vh - 20px);
+    width: 95vw;
+    @include sm {
+      width: calc(90vw);
+    }
+    @include md {
+      width: calc(80vw);
+    }
+    @include lg {
+      width: calc(70vw);
+    }
+    @include xl {
+      width: calc(60vw);
+    }
   }
 }
 
 #landing {
-  @extend .page;
+  @extend .page-container;
+  background-color: $dark-blue;
   color: $light-cream;
+  padding-bottom: calc(20vh);
 }
 
 .waffly-logo {
@@ -51,7 +57,17 @@ html, body {
 }
 
 #closetr-feature {
-  @extend .page;
+  @extend .page-container;
   background-color: $light-cream;
+  text-align: center;
   width: 100%;
+  height: calc(60vw + 6rem);
+
+}
+
+.feature-img {
+  width: 80%;
+  margin: -10rem auto;
+  border-radius: 10px;
+
 }
