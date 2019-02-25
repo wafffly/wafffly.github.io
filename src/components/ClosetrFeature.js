@@ -10,6 +10,20 @@ class ClosetrFeature extends React.Component {
             className="feature-img"
             src={closetrFeatureImg}
           />
+          <div className="feature-caption">
+            <div className="title">
+              Closetr
+            </div>
+            <div className="caption">
+              Closetr is a closet tracker that helps you ahve a better
+              sense of your style, and spending. We want to make it
+              easier to know what to wear next, and to give you insight
+              on which clothes work (and don't work) for you.
+            </div>
+            <button className="btn demo">
+              LIVE DEMO
+            </button>
+          </div>
         </div>
         <div id="closetr-feature-bg"></div>
       </div>
