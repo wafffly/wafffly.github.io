@@ -49,3 +49,9 @@ html, body {
     margin: 1rem auto;
   }
 }
+
+#closetr-feature {
+  @extend .page;
+  background-color: $light-cream;
+  width: 100%;
+}
