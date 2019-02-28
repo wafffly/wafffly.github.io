@@ -12,7 +12,7 @@ class ClosetrFeature extends React.Component {
           />
           <div className="feature-caption">
             <div className="title">
-              Closetr
+              closetr
             </div>
             <div className="caption">
               Closetr is a closet tracker that helps you ahve a better
@@ -21,7 +21,9 @@ class ClosetrFeature extends React.Component {
               on which clothes work (and don't work) for you.
             </div>
             <button className="btn demo">
-              VIEW PROJECT
+              <a href="http://fideslinga.com/work/closetr">
+                VIEW PROJECT
+              </a>
             </button>
           </div>
         </div>
