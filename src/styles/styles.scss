@@ -1,5 +1,6 @@
 @import "./global-variables.scss";
 @import "./fonts.scss";
+@import "./scrollbar.scss";
 
 * {
 -webkit-box-sizing: border-box;
@@ -7,7 +8,7 @@
 box-sizing: border-box;
 }
 
-html, body {
+body {
   font-family: $font-main;
   font-weight: 300;
   font-size: 1 rem;
@@ -17,6 +18,8 @@ html, body {
   background-size: cover;
   background-position: top center;
   height: 70rem;
+  width: 100vw;
+  overflow-x: hidden;
   transition: $mid-ease;
   @include sm {
     height: 80rem;
