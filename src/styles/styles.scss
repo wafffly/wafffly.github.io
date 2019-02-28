@@ -1,6 +1,7 @@
 @import "./global-variables.scss";
 @import "./fonts.scss";
 @import "./scrollbar.scss";
+@import "./animations.scss";
 
 * {
 -webkit-box-sizing: border-box;
@@ -60,6 +61,16 @@ body {
   margin-bottom: 2rem;
 }
 
+.landing-part-one {
+  @extend .mgn-bottom-2rem;
+  animation: $a-fade-from-up;
+}
+
+.landing-part-two {
+  @extend .mgn-bottom-2rem;
+  animation: $a-fade-from-down;
+}
+
 #landing {
   @extend .page-container;
   color: $light-cream;
@@ -86,6 +97,7 @@ body {
 }
 
 #closetr-feature {
+  animation: $a-fade-from-down;
   @extend .page-container;
   text-align: center;
   margin-bottom: 5rem;
