@@ -14,22 +14,16 @@ html, body {
   background-color: $light-cream;
   background-image: url('../assets/landing-header.svg');
   background-repeat: no-repeat;
-  background-size: 120rem auto;
+  background-size: cover;
+  background-position: top center;
+  height: 70rem;
   transition: $mid-ease;
   @include sm {
-    background-size: 140rem auto;
+    height: 80rem;
     transition: $mid-ease;
   }
   @include md {
-    background-size: 90rem auto;
-    transition: $mid-ease;
-  }
-  @include lg {
-    background-size: 90rem auto;
-    transition: $mid-ease;
-  }
-  @include xl {
-    background-size: 110rem auto;
+    height: 60rem;
     transition: $mid-ease;
   }
 }
@@ -53,6 +47,14 @@ html, body {
       width: calc(50vw);
     }
   }
+}
+
+.landing-header {
+  margin-bottom: 3rem;
+}
+
+.mgn-bottom-2rem {
+  margin-bottom: 2rem;
 }
 
 #landing {

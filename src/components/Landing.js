@@ -1,16 +1,15 @@
 import React from 'react';
 import logo from '../assets/waffly-logo.png';
 import landingArt from '../assets/waffly-landing-art.png';
-import arrowDown from '../assets/arrow-down.png';
-import landingHeader from '../assets/landing-header.svg';
+import arrowDown from '../assets/arrow-down.svg';
 
 class Landing extends React.Component {
   render() {
     return (
       <div id="landing">
         <div className="page container">
-          <div className="row">
-            <div className="col-12 col-md-6">
+          <div className="row landing-header">
+            <div className="col-12 col-md-6 mgn-bottom-2rem">
               <h1>
                 <img
                   src={logo}
@@ -27,7 +26,7 @@ class Landing extends React.Component {
                 beauty and function.
               </span>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 mgn-bottom-2rem">
               <img
                 src={landingArt}
                 style={{width: '100%'}}

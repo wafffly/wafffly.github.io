@@ -1,5 +1,5 @@
 import React from 'react';
-import closetrFeatureImg from '../assets/closetr-feature-img.png';
+import closetrFeatureImg from '../assets/closetr-feature-img.svg';
 
 class ClosetrFeature extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class ClosetrFeature extends React.Component {
               on which clothes work (and don't work) for you.
             </div>
             <button className="btn demo">
-              LIVE DEMO
+              VIEW PROJECT
             </button>
           </div>
         </div>
