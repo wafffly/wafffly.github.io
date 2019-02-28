@@ -100,7 +100,7 @@ body {
   animation: $a-fade-from-down;
   @extend .page-container;
   text-align: center;
-  margin-bottom: 5rem;
+  //margin-bottom: 70px;
 }
 
 .feature-caption {
@@ -131,7 +131,7 @@ body {
 
 .feature-img {
   border-radius: 15px;
-  width: 90%;
+  width: 100%;
   -webkit-box-shadow: 11px 11px 30px -13px rgba(97,67,21,0.63);
   -moz-box-shadow: 11px 11px 30px -13px rgba(97,67,21,0.63);
   box-shadow: 11px 11px 30px -13px rgba(97,67,21,0.63);
