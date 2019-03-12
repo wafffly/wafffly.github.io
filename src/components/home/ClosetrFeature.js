@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import closetrFeatureImg from '../../assets/closetr-feature-img.svg';
 
 class ClosetrFeature extends React.Component {
@@ -21,9 +22,9 @@ class ClosetrFeature extends React.Component {
               on which clothes work (and don't work) for you.
             </div>
             <button className="btn demo" style={{marginBottom: '50px'}}>
-              <a href="http://fideslinga.com/work/closetr">
+              <Link to="/closetr">
                 VIEW PROJECT
-              </a>
+              </Link>
             </button>
           </div>
         </div>

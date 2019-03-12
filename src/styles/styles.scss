@@ -61,6 +61,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.row-space-sm {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .landing-part-one {
   @extend .mgn-bottom-2rem;
   animation: $a-fade-from-up;
