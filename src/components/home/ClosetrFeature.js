@@ -1,5 +1,5 @@
 import React from 'react';
-import closetrFeatureImg from '../assets/closetr-feature-img.svg';
+import closetrFeatureImg from '../../assets/closetr-feature-img.svg';
 
 class ClosetrFeature extends React.Component {
   render() {
