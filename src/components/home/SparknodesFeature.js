@@ -20,7 +20,7 @@ class SparknodesFeature extends React.Component {
             data structures, and algorithms.
             </div>
             <Link
-              to="/sparknodes"
+              to="/waffly/sparknodes"
               className="btn navy"
               style={{marginBottom: '50px'}}>
               VIEW PROJECT
