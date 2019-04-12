@@ -36,14 +36,14 @@ class SparknodesDetail extends React.Component {
           </div>
           <div className="row">
             <div className="col-12 col-sm-6 row-space-lg">
-              <Link to="/" className="btn btn-block navy">
+              <a href="http://github.com/wafffly/sparknodes/" className="btn btn-block navy">
                 GITHUB
-              </Link>
+              </a>
             </div>
             <div className="col-12 col-sm-6 row-space-lg">
-              <Link to="/" className="btn btn-block navy">
+              <a href="http://fideslinga.com/sparknodes/" className="btn btn-block navy">
                 LIVE DEMO
-              </Link>
+              </a>
             </div>
           </div>
           <div className="row">

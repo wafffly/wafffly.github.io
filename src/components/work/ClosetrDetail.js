@@ -35,14 +35,14 @@ class ClosetrDetail extends React.Component {
           </div>
           <div className="row">
             <div className="col-12 col-sm-6 row-space-lg">
-              <Link to="/" className="btn btn-block navy">
+              <a href="http://github.com/wafffly/closetr/" className="btn btn-block navy">
                 GITHUB
-              </Link>
+              </a>
             </div>
             <div className="col-12 col-sm-6 row-space-lg">
-              <Link to="/" className="btn btn-block navy">
+              <a href="http://fideslinga.com/closeter" className="btn btn-block navy">
                 LIVE DEMO
-              </Link>
+              </a>
             </div>
           </div>
           <div className="row">
