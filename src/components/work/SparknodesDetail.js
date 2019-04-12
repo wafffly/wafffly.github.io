@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import sparknodesFeatureImg from '../../assets/sparknodes-feature-img.png';
 import sparknodesDetailDesign1Img from '../../assets/sparknodes-design-1.png';
 import sparknodesDetailDesign2Img from '../../assets/sparknodes-design-2.png';
@@ -33,16 +34,16 @@ class SparknodesDetail extends React.Component {
               />
             </div>
           </div>
-          <div className="row row-space-lg">
-            <div className="col-12 col-sm-6">
-              <button className="btn btn-block cream">
+          <div className="row">
+            <div className="col-12 col-sm-6 row-space-lg">
+              <Link to="/" className="btn btn-block navy">
                 GITHUB
-              </button>
+              </Link>
             </div>
-            <div className="col-12 col-sm-6">
-              <button className="btn btn-block cream">
+            <div className="col-12 col-sm-6 row-space-lg">
+              <Link to="/" className="btn btn-block navy">
                 LIVE DEMO
-              </button>
+              </Link>
             </div>
           </div>
           <div className="row">

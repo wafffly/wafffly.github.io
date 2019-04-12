@@ -1,5 +1,5 @@
 .btn {
-  @extend .title;
+  font-weigt: 700;
   font-size: 1.5rem;
   border-radius: 3rem;
   padding: 0.5rem 2rem 0.5rem 2rem;
@@ -8,14 +8,10 @@
   }
   &.navy {
     background-color: $dark-blue;
-    & a {
-      color: $light-cream;
-    }
+    color: $main-light;
   }
   &.cream {
-    background-color: $light-cream;
-    & a {
-      color: $dark-blue;
-    }
+    background-color: $main-light;
+    color: $dark-blue;
   }
 }

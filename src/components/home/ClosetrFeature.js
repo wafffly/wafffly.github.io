@@ -19,11 +19,12 @@ class ClosetrFeature extends React.Component {
               Closetr is a closet tracker that helps you have a better
               sense of your style, and spending.
             </div>
-            <button className="btn navy" style={{marginBottom: '50px'}}>
-              <Link to="/closetr">
-                VIEW PROJECT
-              </Link>
-            </button>
+            <Link
+              to="/closetr"
+              className="btn navy"
+              style={{marginBottom: '50px'}}>
+              VIEW PROJECT
+            </Link>
           </div>
         </div>
       </div>

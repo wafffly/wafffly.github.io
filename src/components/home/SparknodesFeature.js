@@ -19,11 +19,12 @@ class SparknodesFeature extends React.Component {
             Sparknodes is a visual introduction to the theory of computation,
             data structures, and algorithms.
             </div>
-            <button className="btn navy" style={{marginBottom: '50px'}}>
-              <Link to="/sparknodes">
-                VIEW PROJECT
-              </Link>
-            </button>
+            <Link
+              to="/sparknodes"
+              className="btn navy"
+              style={{marginBottom: '50px'}}>
+              VIEW PROJECT
+            </Link>
           </div>
         </div>
       </div>
