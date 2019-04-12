@@ -81,16 +81,15 @@ body {
 
 .landing-part-one {
   @extend .mgn-bottom-2rem;
-  animation: $a-fade-from-up;
 }
 
 .landing-part-two {
   @extend .mgn-bottom-2rem;
-  animation: $a-fade-from-down;
 }
 
 #landing {
   @extend .page-container;
+  animation: $a-fade-from-down;
 }
 
 .waffly-logo {
@@ -155,5 +154,5 @@ a {
 }
 
 hr {
-  border-top: 1px solid $tan;
+  border-top: 1px solid $main-accent;
 }
