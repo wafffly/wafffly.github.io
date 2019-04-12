@@ -17,9 +17,7 @@ class SparknodesFeature extends React.Component {
             </div>
             <div className="caption">
             Sparknodes is a visual introduction to the theory of computation,
-            data structures, and algorithms. We want to make these topics
-            more accessible because they can be intimidating, and we find
-            that resources are more limited than they should be.
+            data structures, and algorithms.
             </div>
             <button className="btn demo" style={{marginBottom: '50px'}}>
               <Link to="/sparknodes">
