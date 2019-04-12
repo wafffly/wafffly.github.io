@@ -1,20 +1,94 @@
 import React from 'react';
-import closetrFeatureImg from '../../assets/closetr-feature-img.svg';
+import closetrFeatureImg from '../../assets/closetr-feature-img.png';
+import closetrDetailAddClothingImg from '../../assets/closetr_mockups_web-add-clothing-screen.png';
+import closetrDetailClosetSearchImg from '../../assets/closetr_mockups_web-closet-search-screen.png';
+import closetrDetailDashboardImg from '../../assets/closetr_mockups_web-dashboard.png';
+import closetrDetailLogOutfitImg from '../../assets/closetr_mockups_web-log-outfit-screen.png';
+import closetrDetailLogOutfitSearchImg from '../../assets/closetr_mockups_web-log-outfit-search-screen.png';
 
 class ClosetrDetail extends React.Component {
   render() {
+    document.querySelector('body').className = "project";
     return (
       <div id="landing">
         <div className="page container">
-          <div className="subtitle center mgn-bottom-2rem">
-            monitor your clothing usage patterns
-            <br/>
-            by letting your closet go digital
+          <div className="row row-space-sm">
+            <div className="col-12">
+              <div className="title text-center">
+                Closetr
+              </div>
+              <div className="subtitle text-center mgn-bottom-2rem">
+                monitor your clothing usage patterns
+                <br/>
+                by letting your closet go digital
+              </div>
+            </div>
           </div>
-          <img
-            className="feature-img"
-            src={closetrFeatureImg}
-          />
+          <div className="row row-space-lg mgn-bottom-2rem">
+            <div className="col-12">
+              <img
+                className="feature-img"
+                src={closetrFeatureImg}
+              />
+            </div>
+          </div>
+          <div className="row row-space-lg">
+            <div className="col-12 col-sm-6">
+              <button className="btn btn-block cream">
+                GITHUB
+              </button>
+            </div>
+            <div className="col-12 col-sm-6">
+              <button className="btn btn-block cream">
+                LIVE DEMO
+              </button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <hr/>
+            </div>
+            <div className="col-12">
+              <div className="subtitle">
+                What it is
+              </div>
+              <p>
+                Closetr is a closet tracker that helps you have a
+                better sense of your style, and spending. We want
+                to make it easier to know what to wear next, and
+                to give you insight on which clothes work (and
+                don't work) for you.
+              </p>
+              <img
+                className="row-space-lg feature-img"
+                src={closetrDetailAddClothingImg}
+              />
+            </div>
+            <div className="col-12">
+              <img
+                className="row-space-lg feature-img"
+                src={closetrDetailClosetSearchImg}
+              />
+            </div>
+            <div className="col-12">
+              <img
+                className="row-space-lg feature-img"
+                src={closetrDetailDashboardImg}
+              />
+            </div>
+            <div className="col-12">
+              <img
+                className="row-space-lg feature-img"
+                src={closetrDetailLogOutfitImg}
+              />
+            </div>
+            <div className="col-12">
+              <img
+                className="row-space-lg feature-img"
+                src={closetrDetailLogOutfitSearchImg}
+              />
+            </div>
+          </div>
         </div>
       </div>
     );

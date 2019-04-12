@@ -5,7 +5,7 @@ import closetrFeatureImg from '../../assets/closetr-feature-img.png';
 class ClosetrFeature extends React.Component {
   render() {
     return (
-      <div class="project-feature">
+      <div className="project-feature">
         <div className="page container">
           <img
             className="feature-img"
@@ -17,9 +17,9 @@ class ClosetrFeature extends React.Component {
             </div>
             <div className="caption">
               Closetr is a closet tracker that helps you have a better
-              sense of your style, and spending. 
+              sense of your style, and spending.
             </div>
-            <button className="btn demo" style={{marginBottom: '50px'}}>
+            <button className="btn navy" style={{marginBottom: '50px'}}>
               <Link to="/closetr">
                 VIEW PROJECT
               </Link>

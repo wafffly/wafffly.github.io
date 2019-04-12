@@ -1,0 +1,21 @@
+.btn {
+  @extend .title;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  &:hover {
+    background-color: $tanner;
+  }
+  &.navy {
+    background-color: $dark-blue;
+    & a {
+      color: $light-cream;
+    }
+  }
+  &.cream {
+    background-color: $light-cream;
+    & a {
+      color: $dark-blue;
+    }
+  }
+}
