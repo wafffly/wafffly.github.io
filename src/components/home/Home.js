@@ -1,6 +1,7 @@
 import React from 'react';
 import Landing from './Landing';
 import ClosetrFeature from './ClosetrFeature';
+import SparknodesFeature from './SparknodesFeature';
 
 class Home extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends React.Component {
       <div>
         <Landing/>
         <ClosetrFeature/>
+        <SparknodesFeature/>
       </div>
     );
   }

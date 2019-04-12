@@ -1,28 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import closetrFeatureImg from '../../assets/closetr-feature-img.png';
+import sparknodesFeatureImg from '../../assets/sparknodes-feature-img.png';
 
-class ClosetrFeature extends React.Component {
+class SparknodesFeature extends React.Component {
   render() {
     return (
       <div class="project-feature">
         <div className="page container">
           <img
             className="feature-img"
-            src={closetrFeatureImg}
+            src={sparknodesFeatureImg}
           />
           <div className="feature-caption">
             <div className="title">
-              closetr
+              sparknodes
             </div>
             <div className="caption">
-              Closetr is a closet tracker that helps you have a better
-              sense of your style, and spending. We want to make it
-              easier to know what to wear next, and to give you insight
-              on which clothes work (and don't work) for you.
+            Sparknodes is a visual introduction to the theory of computation,
+            data structures, and algorithms. We want to make these topics
+            more accessible because they can be intimidating, and we find
+            that resources are more limited than they should be.
             </div>
             <button className="btn demo" style={{marginBottom: '50px'}}>
-              <Link to="/closetr">
+              <Link to="/sparknodes">
                 VIEW PROJECT
               </Link>
             </button>
@@ -33,4 +33,4 @@ class ClosetrFeature extends React.Component {
   }
 }
 
-export default ClosetrFeature;
+export default SparknodesFeature;

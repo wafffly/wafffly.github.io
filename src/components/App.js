@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import "../styles/styles.scss";
+
 import Home from './home/Home';
 import Team from './Team';
 import ClosetrDetail from './work/ClosetrDetail';
-import "../styles/styles.scss";
+import SparknodesDetail from './work/SparknodesDetail';
 
 class App extends React.Component {
   render() {
@@ -13,6 +15,7 @@ class App extends React.Component {
           <Route path="/" exact component={Home}/>
           <Route path="/about" exact component={Team}/>
           <Route path="/closetr" exact component={ClosetrDetail}/>
+          <Route path="/sparknodes" exact component={SparknodesDetail}/>
         </div>
       </BrowserRouter>
     );

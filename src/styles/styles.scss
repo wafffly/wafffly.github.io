@@ -83,7 +83,7 @@ body {
 
 .waffly-logo {
   margin-bottom: 1.5rem;
-  width: 2.5rem;
+  width: 3.5rem;
 }
 
 .expand-caption {
@@ -101,11 +101,10 @@ body {
   }
 }
 
-#closetr-feature {
+.project-feature {
   animation: $a-fade-from-down;
   @extend .page-container;
   text-align: center;
-  //margin-bottom: 70px;
 }
 
 .feature-caption {

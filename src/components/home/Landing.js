@@ -7,7 +7,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div id="landing">
-        <div className="page container">
+        <div className="page container text-center">
           <div className="row landing-header">
             <div className="col-12 landing-part-one">
               <h1>
