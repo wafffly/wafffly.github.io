@@ -1,0 +1,17 @@
+.btn {
+  font-weigt: 700;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  &:hover {
+    background-color: $main-accent;
+  }
+  &.navy {
+    background-color: $dark-blue;
+    color: $main-light;
+  }
+  &.cream {
+    background-color: $main-light;
+    color: $dark-blue;
+  }
+}
