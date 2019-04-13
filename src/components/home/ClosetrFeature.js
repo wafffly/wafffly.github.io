@@ -20,7 +20,7 @@ class ClosetrFeature extends React.Component {
               sense of your style, and spending.
             </div>
             <Link
-              to="/waffly/closetr"
+              to="/closetr"
               className="btn navy"
               style={{marginBottom: '50px'}}>
               VIEW PROJECT

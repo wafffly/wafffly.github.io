@@ -19,10 +19,10 @@ class App extends React.Component {
       <Router
         history = {history}>
         <Switch>
-          <Route path="/waffly/" exact component={Home}/>
-          <Route path="/waffly/about" exact component={Team}/>
-          <Route path="/waffly/closetr" exact component={ClosetrDetail}/>
-          <Route path="/waffly/sparknodes" exact component={SparknodesDetail}/>
+          <Route path="/" exact component={Home}/>
+          <Route path="/about" exact component={Team}/>
+          <Route path="/closetr" exact component={ClosetrDetail}/>
+          <Route path="/sparknodes" exact component={SparknodesDetail}/>
           <Route component={Home}/>
         </Switch>
       </Router>

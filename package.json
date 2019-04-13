@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "history": "^4.9.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.3",
@@ -14,6 +15,8 @@
     "typescript": "^3.3.3333"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,5 +31,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://fideslinga.com/waffly/"
+  "homepage": "https://wafffly.github.io/"
 }
