@@ -11,16 +11,15 @@ class ClosetrDetail extends React.Component {
   render() {
     document.querySelector('body').className = "project";
     return (
-      <div id="landing">
+      <div id="landing" className="detail-page">
         <div className="page container">
           <div className="row row-space-sm">
             <div className="col-12">
-              <div className="title text-center">
+              <div className="title">
                 Closetr
               </div>
-              <div className="subtitle text-center mgn-bottom-2rem">
+              <div className="subtitle">
                 monitor your clothing usage patterns
-                <br/>
                 by letting your closet go digital
               </div>
             </div>
@@ -50,7 +49,7 @@ class ClosetrDetail extends React.Component {
               <hr/>
             </div>
             <div className="col-12">
-              <div className="subtitle">
+              <div className="topic">
                 What it is
               </div>
               <p>

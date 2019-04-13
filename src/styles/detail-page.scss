@@ -1,0 +1,10 @@
+.detail-page {
+  & .subtitle {
+    @extend .text-center;
+    @extend .mgn-bottom-2rem;
+    max-width: 80%;
+  }
+  & .title {
+    @extend .text-center;
+  }
+}

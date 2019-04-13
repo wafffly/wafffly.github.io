@@ -14,7 +14,20 @@ h1 {
   line-height: 3rem;
 }
 
+.topic {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+
 .subtitle-sm {
   @extend .subtitle;
   font-size: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
